@@ -1,4 +1,4 @@
-# randomPythonStuff
+# random-python-stuff
 Welcome to my collection of random Python stuff! 🐍
 
 This repository features a mix of experiments and tests—some created from scratch and others inspired by tutorials. Think of it as a backup for all my silly little experiments. 😊
