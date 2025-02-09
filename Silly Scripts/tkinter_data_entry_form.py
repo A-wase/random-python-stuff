@@ -1,8 +1,9 @@
-# Creates a tkinter GUI form with multiple input types (text, spinbox, dropdown, checkbox, slider)  
-# Collects user data and saves to Excel file using pandas  
-# Validates required fields and email format before saving  
-# Appends new entries to existing data.xlsx file or creates new file  
-# Clears form after successful submission with confirmation message  
+# Script Explained:
+# - Creates a tkinter GUI form with multiple input types (text, spinbox, dropdown, checkbox, slider)  
+# - Collects user data and saves to Excel file using pandas  
+# - Validates required fields and email format before saving  
+# - Appends new entries to existing data.xlsx file or creates new file  
+# - Clears form after successful submission with confirmation message  
 
 import tkinter as tk
 from tkinter import ttk
