@@ -1,5 +1,5 @@
-# In general, use for loops when you already know the number of iterations
-# and while loops when there is a condition that needs to be met.
+# In general, use FOR loops when you already know the number of iterations
+# and WHILE loops when there is a condition that needs to be met.
 import time
 seats = 10
 while seats > 0:
