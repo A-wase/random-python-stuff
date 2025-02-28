@@ -1,6 +1,6 @@
 # Python List Methods Cheat Sheet
 
-## .append()
+### .append()
 - **Purpose:** Add an element to the end of a list.
 - **Syntax:** `list.append(item)`
 - **Example:**
@@ -9,7 +9,7 @@
   fruits.append('cherry')  # Result: ['apple', 'banana', 'cherry']
 
 
-## .pop()
+### .pop()
 - **Purpose:** Remove and return an element from a list.
 - **Syntax:** 
    - Default (last element): list.pop()
@@ -20,16 +20,7 @@ last = fruits.pop()      # last = 'cherry', fruits = ['apple', 'banana']
 first = fruits.pop(0)    # first = 'apple', fruits = ['banana']
 
 
-## .split()
-- **Purpose:** Split a string into a list of substrings based on a specified separator.
-- **Syntax:** `string.split(separator, maxsplit)`
-- **Example:**
-  ```python
-  text = "apple,banana,cherry"
-  fruits = text.split(",")  # Result: ['apple', 'banana', 'cherry']
-
-
-## .split()
+### .split()
 - **Purpose:** Divides a string into a list of substrings based on a separator.
 - **Syntax:** `string.split(separator, maxsplit)`
 - **Example:**
@@ -44,7 +35,7 @@ first = fruits.pop(0)    # first = 'apple', fruits = ['banana']
   first_two = numbers.split('-', 2)  # Result: ['1', '2', '3-4-5']
   ```
 
-## .join()
+### .join()
 - **Purpose:** Combines a list of strings into a single string using a specified delimiter.
 - **Syntax:** `delimiter.join(iterable)`
 - **Example:**
@@ -59,7 +50,7 @@ first = fruits.pop(0)    # first = 'apple', fruits = ['banana']
   path = '/'.join(path_parts)  # Result: 'usr/local/bin'
   ```
 
-## .strip()
+### .strip()
 - **Purpose:** Removes leading and trailing characters (spaces by default).
 - **Syntax:** `string.strip(chars)`
 - **Example:**
@@ -74,7 +65,7 @@ first = fruits.pop(0)    # first = 'apple', fruits = ['banana']
   clean_name = filename.strip('#')  # Result: 'report.txt'
   ```
 
-## .replace()
+### .replace()
 - **Purpose:** Replaces occurrences of a substring with another substring.
 - **Syntax:** `string.replace(old, new, count)`
 - **Example:**
