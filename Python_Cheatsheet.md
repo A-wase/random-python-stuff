@@ -14,11 +14,10 @@
 - **Syntax:** 
    - Default (last element): list.pop()
    - Specific index: list.pop(index)
-```python
-fruits = ['apple', 'banana', 'cherry']
-last = fruits.pop()      # last = 'cherry', fruits = ['apple', 'banana']
-first = fruits.pop(0)    # first = 'apple', fruits = ['banana']
-
+  ```python
+  fruits = ['apple', 'banana', 'cherry']
+  last = fruits.pop()      # last = 'cherry', fruits = ['apple', 'banana']
+  first = fruits.pop(0)    # first = 'apple', fruits = ['banana']
 
 ### .split()
 - **Purpose:** Divides a string into a list of substrings based on a separator.
