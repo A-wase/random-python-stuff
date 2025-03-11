@@ -163,6 +163,6 @@ class DataEntryForm:
 
 if __name__ == "__main__":
     # Create ttkbootstrap window with theme
-    root = ttk.Window(themename="cosmo")  # Change theme here: "superhero", "darkly", "cosmo"
+    root = ttk.Window(themename="morph")  # Change theme here: "superhero", "darkly", "cosmo"
     app = DataEntryForm(root)
     root.mainloop()
